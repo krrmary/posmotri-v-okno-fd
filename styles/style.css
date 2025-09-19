@@ -136,11 +136,10 @@ ol {
   flex-direction: column;
   flex-grow: 1;
   overflow: hidden;
-  max-height: 103px;
 }
 
 .search-form__fieldset-title {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
@@ -185,11 +184,10 @@ ol {
   overflow: hidden;
   white-space: normal;
   text-overflow: ellipsis;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
-  word-spacing: 1px;
   color: #fff;
 }
 
@@ -209,7 +207,7 @@ ol {
 }
 
 .search-form__textfield {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   width: 225px;
@@ -251,7 +249,7 @@ ol {
 
 .search-form__fieldset {
   border: none;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
 }
@@ -282,7 +280,7 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   font-family: inherit;
   color: #fff;
   font-weight: 700;
